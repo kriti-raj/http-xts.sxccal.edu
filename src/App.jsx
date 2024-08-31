@@ -9,8 +9,8 @@ import Hero from "./components/Hero.jsx";
 
 function App() {
   return (
-    <Router>
-      <>
+    <>
+      <Router>
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about-us" element={<AboutUs />} />
@@ -20,8 +20,8 @@ function App() {
           <Route path="/sponsor-us" element={<SponsorUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
-      </>
-    </Router>
+      </Router>
+    </>
   );
 }
 
