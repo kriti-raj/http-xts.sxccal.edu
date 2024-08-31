@@ -21,9 +21,9 @@ const Cards = ({ src, index }) => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70 group-hover:opacity-50 transition duration-500"></div>
           <div className="absolute bottom-0 left-0 right-0 p-2 text-center text-white text-sm opacity-0 group-hover:opacity-100 transition duration-500">
-            <p className="bg-black bg-opacity-50 py-1 px-2 rounded-md">
+            {/* <p className="bg-black bg-opacity-50 py-1 px-2 rounded-md">
               {routes[index].replace("/", "").replace("-", " ")}
-            </p>
+            </p> */}
           </div>
         </div>
       </Link>
